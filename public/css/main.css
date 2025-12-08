@@ -1,0 +1,28 @@
+body {
+    background-image: url('../img/shinobu.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Adorno card */
+.card {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.5);
+    background: linear-gradient(135deg, #2d3a9b5a, #7e48b3);
+    /* Gradiente azul a morado */
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    /* Sombra para dar profundidad */
+}
+
+/* Modificación del texto de los labels */
+label {
+    color: #ffeb3b;
+    /* Color amarillo para los labels */
+    font-weight: bold;
+    /* Resaltar el texto */
+}
